@@ -20,50 +20,38 @@ body {
 	border-radius: 100%;
 	margin: 40px auto;
 	top: 7em;
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-}
-
-.seg{
-	position: absolute;
-	top: 0em;
-	left: 0em;
-	width: 0px;
-	height: 0px;
-	border-radius:90%;
-	-moz-border-radius: 165px;
-	-webkit-border-radius: 165px;
-	
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 
 .red{
-	position: relative;
-	top: 1.1em;
-	left: 2.3em;
-	
-	border-right: 165px solid #d60d0d;
-	border-top: 165px solid transparent;
-	border-left: 165px solid transparent;
-	border-bottom: 165px solid transparent;
+	background-color:rgb(204, 27, 27);
+	position: absolute;
+	top: 0.3em;
+	left: 13.6em;
+    height:165px;
+    width: 165px;
+    -moz-border-radius: 0 165px 0 0;
+    border-radius: 0 165px 0 0;
 	
 }
 .red:hover{
 	cursor: pointer;
 }
 
-.red.active{
-	
-	border-right: 165px solid #ff0000 !important;
+.red:active{	
+	background: #ff0000 !important;
 }
 
 .green{
+	background-color: green;
 	position: absolute;
-	top:0em;
-	left:1.12em;
-	border-right: 165px solid transparent;
-	border-top: 165px solid #2aa014;
-	border-left: 165px solid transparent;
-	border-bottom: 165px solid transparent;
+	top:0.2em;
+	left:0.3em;
+	height:165px;
+    width: 165px;
+    -moz-border-radius: 165px 0 0 0;
+    border-radius: 165px 0 0 0;
 	
 }
 
@@ -72,19 +60,19 @@ body {
 }
 
 .green:active{
-	
-	border-top: 165px solid #26f500 !important;
+	background: #26f500 !important;
 }
 
 
 .yellow{
 	position: absolute;
-	top: 1.1em;
-	left: -0.1em;
-	border-right: 165px solid transparent;
-	border-top: 165px solid transparent;
-	border-left: 165px solid #a3d410;
-	border-bottom: 165px solid transparent;
+	top: 13.6em;
+	left: 0.3em;
+	background-color:rgb(173, 201, 16);
+    height:165px;
+    width: 165px;
+    -moz-border-radius: 0 0 0 165px;
+    border-radius: 0 0 0 165px;
 	
 }
 .yellow:hover{
@@ -92,17 +80,18 @@ body {
 }
 
 .yellow:active{
-	border-left: 165px solid #bfff00 !important;
+	background: #bfff00 !important;
 }
 
 .blue{
 	position: absolute;
-	top: 2.3em;
-	left: 1em;
-	border-right: 165px solid transparent;
-	border-top: 165px solid transparent;
-	border-left: 165px solid transparent;
-	border-bottom: 165px solid #040467;
+	top: 13.6em;
+	left: 13.6em;
+	background-color:rgb(27, 7, 143);
+    height:165px;
+    width: 165px;
+    -moz-border-radius: 0 0 165px 0;
+    border-radius: 0 0 165px 0;
 	
 }
 
@@ -111,7 +100,7 @@ body {
 }
 
 .blue:active{
-	border-bottom: 165px solid #0000ff;
+	background: #0000ff;
 }
 .inner_circle{
 	position: absolute;
@@ -122,8 +111,6 @@ body {
 	background-color: #fff;
 	border: 10px solid  #3c3939;
 	border-radius: 100%;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
 }
 
 p{
@@ -330,80 +317,66 @@ span#strict{
 	border-radius: 100%;
 	margin: 30px auto;
 	top: 7em;
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+	
 }
 
 
-.seg{
+
+#seg0{
 	position: absolute;
-	top: 0em;
-	left: 0em;
-	width: 0px;
-	height: 0px;
-	border-radius:90%;
-	-moz-border-radius: 105px;
-	-webkit-border-radius: 105px;
+	top: -0.5em;
+	left: 8.4em;
+	height:105px;
+    width: 105px;
+    -moz-border-radius: 0 105px 0 0;
+    border-radius: 0 105px 0 0;
 	
 }
 
 #seg1{
-	position: relative;
-	top: 0.4em;
-	left: 1.3em;
-	border-right: 105px solid rgba(255, 0, 0, 0.46);
-	border-top: 105px solid transparent;
-	border-left: 105px solid transparent;
-	border-bottom: 105px solid transparent;
+	position: absolute;
+	top: -0.5em;
+	left: 0em;
+	height:105px;
+    width: 105px;
+    -moz-border-radius: 105px 0 0 0;
+    border-radius: 105px 0 0 0;
 	
 }
 
 #seg2{
 	position: absolute;
-	top:-0.6em;
-	left:0.4em;
-	border-right: 105px solid transparent;
-	border-top: 105px solid rgba(0, 128, 0, 0.48);
-	border-left: 105px solid transparent;
-	border-bottom: 105px solid transparent;
+	top: 8.3em;
+	left:0em;
+	height:105px;
+    width: 105px;
+    -moz-border-radius: 0 0 0 105px;
+    border-radius: 0 0 0 105px;
 	
 }
 
 
 #seg3{
 	position: absolute;
-	top: 0.4em;
-	left: -0.6em;
-	border-right: 105px solid transparent;
-	border-top: 105px solid transparent;
-	border-left: 105px solid rgba(255, 255, 0, 0.49);
-	border-bottom: 105px solid transparent;
-	
-}
-
-#seg4{
-	position: absolute;
-	top: 1.3em;
-	left: 0.3em;
-	border-right: 105px solid transparent;
-	border-top: 105px solid transparent;
-	border-left: 105px solid transparent;
-	border-bottom: 105px solid rgba(7, 7, 125, 0.45);
+	top: 8.3em;
+	left: 8.3em;
+	height:105px;
+    width: 105px;
+    -moz-border-radius: 0 0 105px 0;
+    border-radius: 0 0 105px 0;
 	
 }
 
 
 .inner_circle{
 	position: absolute;
-	bottom: 2.5em;
-	left: 2.5em;
-	width: 150px;
-	height: 150px;
+	bottom: 2.1em;
+	left: 2.1em;
+	width: 165px;
+	height: 165px;
 	background-color: #fff;
 	border: 5px solid  #3c3939;
 	border-radius: 100%;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
 }
 
 p{
