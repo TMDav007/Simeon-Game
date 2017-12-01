@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html>
 	<head><title>Simeon Game</title>
-	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = yes">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Princess+Sofia" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<link href = "style.css" type = "text/css" rel = "stylesheet">
-	
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = yes">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
 	<body>
-	<div class = "simeon_container">
-		<div id = "0" class = "seg red"> </div>
-		<div id = "1" class = "seg green"> </div>
-		<div id = "2" class = "seg yellow"> </div>
-		<div id = "3" class = "seg blue"> </div>
+		<div class = "simeon_container">
+			<div id = "0" class = "seg red"> </div>
+			<div id = "1" class = "seg green"> </div>
+			<div id = "2" class = "seg yellow"> </div>
+			<div id = "3" class = "seg blue"> </div>
+			
+			<div class = "inner_circle"> <p>Simon <sup>&reg;</sup></p>
+				<div class = "button_segment"> 
+					<div id = "counter"> - - <span id = "count">count </span></div>
+					<div id = "startbtn"> </div><span id = "start"> start</span> 
+					<div id = "strict_indicator"> </div>
+					<div id = "strictbtn"> </div> <span id = "strict"> strict</span>
+					<div id = "switchbtn"> </div>
+					
+					<label class="switch">
+							<input type="checkbox">
+							<span class="slider round"></span>
+					</label>
+				</div>
+			</div> 
+		</div>
 		
-		<div class = "inner_circle"> <p>Simon <sup>&reg;</sup></p>
-			<div class = "button_segment"> 
-				<div id = "counter"> - - <span id = "count">count </span></div>
-				<div id = "startbtn"> </div><span id = "start"> start</span> 
-				<div id = "strict_indicator"> </div>
-				<div id = "strictbtn"> </div> <span id = "strict"> strict</span>
-				<div id = "switchbtn"> </div>
-				
-				<label class="switch">
-						<input type="checkbox">
-						<span class="slider round"></span>
-				</label>
-			</div>
-		</div> 
-	</div>
-	
-		<script src= "script.js" > </script>
+	<script src= "script.js" > </script>
 	</body>
 </html>
