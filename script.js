@@ -5,10 +5,10 @@ userSeq = [];
 	const NUM_OF_LEVELS = 20;
 	var id ,color, level = 0;
 	var boardSound = [
-		'https://www.soundjay.com/nature/water-droplet-1.mp3', //green
-		'https://www.soundjay.com/nature/water-droplet-2.mp3', //red
-		'https://www.soundjay.com/nature/water-splash-1.mp3', //yellow
-		'https://www.soundjay.com/nature/water-splash-2.mp3' //blue
+		'https://s3.amazonaws.com/freecodecamp/simonSound1.mp3', //green
+		'https://s3.amazonaws.com/freecodecamp/simonSound2.mp3', //red
+		'https://s3.amazonaws.com/freecodecamp/simonSound3.mp3', //yellow
+		'https://s3.amazonaws.com/freecodecamp/simonSound4.mp3' //blue
 	];
 	
 $(document).ready(function () {
